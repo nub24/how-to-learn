@@ -6,20 +6,179 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
 .header {
+  position: relative;
+  display: flex;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.logo {
+  width: 228px;
+  height: 32px;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 2;
+}
+
+.header__title {
+  width: 730px;
+  font-size: 102px;
+  font-weight: 600;
+  line-height: 96px;
+  align-self: center;
+  margin: 0 0 0 64px;
+  z-index: 2;
+}
+
+.header__subtitle {
+  margin: 0;
+  padding: 0;
+  width: 388px;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+  z-index: 2;
+}
+
+.header__link {
+  text-decoration: none;
+}
+
+.header__main-illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 765px;
+  height: 608px;
+  z-index: 1;
+}
+
 .header__square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0;
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  z-index: 0;
+}
+
+
+/* DESCRIPTION */
+
+.description {
+  margin: 100px 0 0 0;
+  display: flex;
+}
+
+.description__two-columns {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.description__two-columns_brief {
+  max-width: 175px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #2f80ed;
+}
+
+.description__two-columns_main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.description__two-columns_paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.description__two-columns_paragraph:nth-of-type(2){
+  margin: 30px 0;
+}
+
+.description__two-columns_span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+
+/* DIGITS */
+.digits {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.digits__section-title {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.digits__section-subtitle {
+  width: 60%;
+  text-align: center;
+  margin: 20px auto 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.digits__table {
+  width: 1100px;
+  margin: 60px auto 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 60px;
+}
+
+.digits__table_cell {
+  width: 250px;
+}
+
+.digits__table-heding {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.digits__table-text {
+  margin-top: 20px;
+  line-height: 1.12;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 /* и элемента с модификатором вида ключ-значение */
