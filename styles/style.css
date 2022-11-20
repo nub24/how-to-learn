@@ -450,6 +450,34 @@
   color: #fff;
 }
 
+/* RESOURCES */
+.resources {
+  margin: 100px auto 217px;
+  display: flex;
+  flex-direction: column;
+}
+
+.resources__logo-zone {
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  margin: 80px auto 0;
+}
+
+.resources__link {
+  margin: 0;
+}
+
+.resources__link:hover {
+  opacity: var(--link-opacity);
+  transition: var(--link-transition);
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}
+
 
 /* FOOTER */
 
