@@ -8,5 +8,5 @@
 }
 
 .rotation {
-  animation: rotation 20s linear 0s infinite normal forwards running;
+  animation: rotation 20s linear 0s infinite forwards;
 }
