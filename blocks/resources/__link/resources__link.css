@@ -1,8 +1,8 @@
 .resources__link {
   margin: 0;
+  transition: var(--link_transition_hover);
 }
 
 .resources__link:hover {
   opacity: var(--link_opacity_hover);
-  transition: var(--link_transition_hover);
 }

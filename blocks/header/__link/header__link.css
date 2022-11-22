@@ -1,9 +1,9 @@
 .header__link {
   text-decoration: none;
   color: var(--link-color);
+  transition: var(--link_transition_hover);
 }
 
 .header__link:hover {
   opacity: var(--link_opacity_hover);
-  transition: var(--link_transition_hover);
 }

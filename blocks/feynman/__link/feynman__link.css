@@ -8,9 +8,9 @@
   top: 50%;
   z-index: 1;
   color: var(--link-color);
+  transition: var(--link_transition_hover);
 }
 
 .feynman__link:hover {
   opacity: var(--link_opacity_hover);
-  transition: var(--link_transition_hover);
 }
