@@ -8,7 +8,8 @@
 @import url(../blocks/page/page.css);
 
 /* ROTATION */
-@import url(../../../blocks/rotation/rotation.css);
+/* Спасибо за подсказку. Странно, что у меня в VS Code всё вращалось */
+@import url(../blocks/rotation/rotation.css);
 
 /* LOGO */
 @import url(../blocks/logo/logo.css);
