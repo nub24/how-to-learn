@@ -1,5 +1,5 @@
 :root {
   --link_opacity_hover: .7;
-  --link_transition_hover: opacity .3s ease-in-out;
+  --link_transition_hover: all .3s ease-in-out;
   --link-color: #2f80ed;
 }

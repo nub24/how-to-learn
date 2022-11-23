@@ -5,4 +5,5 @@
 
 .resources__link:hover {
   opacity: var(--link_opacity_hover);
+  transform: scale(1.1);
 }
